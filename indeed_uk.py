@@ -36,7 +36,8 @@ for i in url:
             split    = comp_loc.split('-')
             company  = split[0]
             location = split[1]
-            cursor.execute('INSERT INTO job_listings(title, company, location, summary, timestamp) VALUES(%s, %s, %s, %s, %s)', 
+            cursor.execute("""INSERT INTO job_listings(title, company, location, summary, timestamp) 
+                            VALUES(%s, %s, %s, %s, %s)""", 
                             (title, company, location, summary, timestamp))
 
 
