@@ -49,6 +49,3 @@ for i in url2:
                             (title, company, location, summary, timestamp))
 
 
-# google_api_key = 'AIzaSyDDPQDF7E6gWlHMlbTUF5ECTiZw9JVdX9U'
-# https://maps.googleapis.com/maps/api/geocode/json?address=London&key=AIzaSyDDPQDF7E6gWlHMlbTUF5ECTiZw9JVdX9U
-
