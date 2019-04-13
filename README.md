@@ -1,6 +1,6 @@
 # webscrape
 
-A few simple scripts utilizing Python BeautifulSoup and Requests modules to scrape 4 pages of data from Indeed.
+A few simple scripts utilizing Python BeautifulSoup and Requests modules to scrape 4 pages of data from Indeed at a time.
 At the moment the only jobs being searched aree 'Junior Data Engineer' and 'Data Engineer'.
 The script stores various information about each job in a local Postgres database.
 
